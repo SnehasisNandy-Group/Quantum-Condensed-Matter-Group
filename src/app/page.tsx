@@ -400,26 +400,44 @@ export default function Home() {
       </section>
 
 
-   {/* RESEARCH VISION */}
-<section className="bg-white border-t border-slate-200">
+{/* RESEARCH VISION */}
+<section className="bg-[#081220] border-t border-slate-800">
 
-  <div className="max-w-7xl mx-auto px-6 py-40">
+  <div className="max-w-6xl mx-auto px-6 py-20">
 
-    <p className="text-sm uppercase tracking-[0.3em] text-slate-500 mb-10">
-      Research Vision
-    </p>
+    <div className="grid lg:grid-cols-12 gap-12 items-start">
 
-    <h2 className="max-w-6xl text-4xl lg:text-5xl leading-[1.25] font-light text-white">
-      Understanding emergent quantum phenomena through topology,
-      geometry, and transport in condensed matter systems.
-    </h2>
+      {/* LEFT LABEL */}
+      <div className="lg:col-span-2">
 
-    <p className="mt-12 text-xl text-slate-400 leading-[1.9] max-w-4xl">
-      Current research focuses on nonlinear transport phenomena,
-      Berry curvature effects, topological superconductivity,
-      and quantum geometric responses in strongly correlated
-      and non-Hermitian systems.
-    </p>
+        <p className="text-[12px] uppercase tracking-[0.28em] text-slate-500">
+          Research Vision
+        </p>
+
+      </div>
+
+      {/* RIGHT CONTENT */}
+      <div className="lg:col-span-10">
+
+        <h2 className="text-3xl lg:text-5xl leading-[1.2] font-light text-white max-w-5xl">
+
+          Understanding emergent quantum phenomena through topology,
+          geometry, and transport in condensed matter systems.
+
+        </h2>
+
+        <p className="mt-8 text-[17px] lg:text-[19px] text-slate-300 leading-[1.8] max-w-4xl">
+
+          Current research focuses on nonlinear transport phenomena,
+          Berry curvature effects, topological superconductivity,
+          and quantum geometric responses in strongly correlated
+          and non-Hermitian systems.
+
+        </p>
+
+      </div>
+
+    </div>
 
   </div>
 
