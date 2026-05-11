@@ -1,37 +1,77 @@
 @import "tailwindcss";
 
 :root {
+  /* Core Palette */
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #0f172a;
+
+  /* Institutional Navy */
+  --navy: #081220;
+  --navy-soft: #0f172a;
+
+  /* Text Hierarchy */
+  --secondary: #475569;
+
+  /* Accent */
+  --accent: #38bdf8;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
+
   font-family: Arial, Helvetica, sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  overflow-x: hidden;
 }
 
+/* Subtle premium ambient depth */
+body::before {
+  content: "";
+
+  position: fixed;
+  inset: 0;
+
+  pointer-events: none;
+  z-index: -1;
+
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(56, 189, 248, 0.06),
+      transparent 26%
+    ),
+
+    radial-gradient(
+      circle at bottom left,
+      rgba(8, 18, 32, 0.04),
+      transparent 22%
+    );
+}
+
+/* Floating scientific motion */
 @keyframes floatGlow {
   0% {
     transform: translateY(0px) translateX(0px);
   }
 
   50% {
-    transform: translateY(-30px) translateX(20px);
+    transform: translateY(-14px) translateX(8px);
   }
 
   100% {
@@ -40,5 +80,5 @@ body {
 }
 
 .animate-glow {
-  animation: floatGlow 14s ease-in-out infinite;
+  animation: floatGlow 16s ease-in-out infinite;
 }

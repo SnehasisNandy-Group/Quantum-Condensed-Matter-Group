@@ -1,18 +1,35 @@
 export default function Navbar() {
   return (
 
-    <nav className="sticky top-0 z-50 backdrop-blur-xl bg-black/70 border-b border-white/[0.04]">
+    <nav className="sticky top-0 z-50 bg-[#081220]/92 backdrop-blur-xl border-b border-white/10">
 
-      <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-8 h-20 flex items-center justify-between">
 
+        {/* Logo / Title */}
         <a
           href="/"
-          className="text-sm tracking-[0.25em] uppercase text-white/90"
+          className="
+            text-[13px]
+            tracking-[0.28em]
+            uppercase
+            text-white
+            font-medium
+            whitespace-nowrap
+          "
         >
           Quantum Condensed Matter Group
         </a>
 
-        <div className="flex items-center gap-10 text-sm tracking-wide text-gray-400">
+        {/* Navigation */}
+        <div className="
+          hidden
+          md:flex
+          items-center
+          gap-10
+          text-[15px]
+          text-slate-300
+          font-light
+        ">
 
           <a
             href="/research"
@@ -41,12 +58,14 @@ export default function Navbar() {
           >
             Teaching
           </a>
-<a
-  href="/opportunities"
-  className="hover:text-white transition duration-300"
->
-  Opportunities
-</a>
+
+          <a
+            href="/opportunities"
+            className="hover:text-white transition duration-300"
+          >
+            Opportunities
+          </a>
+
           <a
             href="/contact"
             className="hover:text-white transition duration-300"

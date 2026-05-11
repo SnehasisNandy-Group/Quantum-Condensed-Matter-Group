@@ -460,101 +460,115 @@ export default function PublicationsPage() {
 
   }, {} as Record<string, typeof publications>);
 
- return (
-  <main className="min-h-screen bg-black text-white overflow-x-hidden">
+return (
+  <main className="min-h-screen bg-white text-slate-900 overflow-x-hidden">
 
     <Navbar />
 
-    {/* Hero */}
-    <section className="max-w-7xl mx-auto px-6 pt-32 pb-20">
+    {/* HERO */}
+    <section className="relative bg-[#081220] overflow-hidden border-b border-slate-800">
 
-      <div className="max-w-5xl">
+      {/* Glow */}
+      <div className="absolute top-[-10%] right-[-5%] w-[700px] h-[700px] bg-cyan-500/10 blur-[140px] rounded-full pointer-events-none" />
 
-        <p className="text-sm uppercase tracking-[0.35em] text-gray-500 mb-10">
-          Publications
-        </p>
+      {/* Orbital Lines */}
+      
+      <div className="max-w-7xl mx-auto px-6 pt-36 pb-28 relative z-10">
 
-        <h1 className="text-5xl lg:text-7xl font-semibold leading-[1.05] text-white mb-12">
-          Publications Archive
-        </h1>
+        <div className="max-w-5xl">
 
-        <p className="text-xl lg:text-2xl text-gray-300 leading-[1.9] max-w-4xl font-light">
-          Research publications in condensed matter physics,
-          topological systems, nonlinear transport,
-          Berry curvature physics, and quantum geometry.
-        </p>
+          <p className="text-sm uppercase tracking-[0.35em] text-slate-400 mb-12">
+            Publications
+          </p>
+
+          <h1 className="text-5xl lg:text-7xl font-semibold leading-[1.05] text-white">
+            Publications Archive
+          </h1>
+
+          <p className="mt-12 text-xl lg:text-2xl text-slate-300 leading-[1.9] max-w-4xl font-light">
+            Research publications in condensed matter physics,
+            topological systems, nonlinear transport,
+            Berry curvature physics, and quantum geometry.
+          </p>
+
+        </div>
 
       </div>
 
     </section>
 
-    {/* Publications */}
-    <section className="max-w-7xl mx-auto px-6 pb-32 pt-10">
+    {/* PUBLICATIONS */}
+    <section className="bg-white">
 
-      {Object.entries(groupedPublications)
-        .sort((a, b) => Number(b[0]) - Number(a[0]))
-        .map(([year, papers]) => (
+      <div className="max-w-7xl mx-auto px-6 py-28">
 
-        <div
-          key={year}
-          className="grid lg:grid-cols-12 gap-16 mb-28"
-        >
+        {Object.entries(groupedPublications)
+          .sort((a, b) => Number(b[0]) - Number(a[0]))
+          .map(([year, papers]) => (
 
-          {/* Year */}
-          <div className="lg:col-span-2">
+            <div
+              key={year}
+              className="grid lg:grid-cols-12 gap-16 mb-28"
+            >
 
-            <h2 className="text-5xl lg:text-6xl font-semibold text-white/90 sticky top-32">
-              {year}
-            </h2>
+              {/* YEAR */}
+              <div className="lg:col-span-2">
 
-          </div>
+                <h2 className="text-5xl lg:text-6xl font-semibold text-[#1d4ed8] sticky top-32">
+                  {year}
+                </h2>
 
-          {/* Papers */}
-          <div className="lg:col-span-10">
+              </div>
 
-            <div className="space-y-14">
+              {/* PAPERS */}
+              <div className="lg:col-span-10">
 
-              {papers.map((paper, index) => (
+                <div className="space-y-14">
 
-                <div
-                  key={index}
-                  className="border-b border-white/[0.06] pb-10"
-                >
+                  {papers.map((paper, index) => (
 
-                  <a
-                    href={paper.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block group"
-                  >
+                    <div
+                      key={index}
+                      className="border-b border-slate-200 pb-10"
+                    >
 
-                    <h3 className="text-2xl lg:text-3xl font-light text-white/90 leading-[1.6] group-hover:text-cyan-300 transition duration-300">
+                      <a
+                        href={paper.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block group"
+                      >
 
-                      {paper.title}
+                        <h3 className="text-2xl lg:text-3xl font-light text-slate-900 leading-[1.6] group-hover:text-cyan-600 transition duration-300">
 
-                    </h3>
+                          {paper.title}
 
-                    <p className="text-gray-500 mt-5 text-lg">
-                      {paper.journal}
-                    </p>
+                        </h3>
 
-                  </a>
+                        <p className="text-slate-500 mt-5 text-lg">
+                          {paper.journal}
+                        </p>
+
+                      </a>
+
+                    </div>
+
+                  ))}
 
                 </div>
 
-              ))}
+              </div>
 
             </div>
 
-          </div>
+          ))}
 
-        </div>
-
-      ))}
+      </div>
 
     </section>
 
     <Footer />
- </main>
- );
+
+  </main>
+);
 }
