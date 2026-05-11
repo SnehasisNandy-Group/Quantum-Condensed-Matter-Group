@@ -477,7 +477,7 @@ return (
 
         <div className="max-w-5xl">
 
-          <p className="text-sm uppercase tracking-[0.35em] text-slate-500 mb-12">
+          <p className="text-sm uppercase tracking-[0.28em] text-slate-500 mb-12">
             Publications
           </p>
 

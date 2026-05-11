@@ -17,7 +17,7 @@ export default function ContactPage() {
 
           <div className="max-w-5xl">
 
-            <p className="text-sm uppercase tracking-[0.35em] text-slate-500 mb-10">
+            <p className="text-sm uppercase tracking-[0.28em] text-slate-500 mb-10">
               Contact
             </p>
 
@@ -60,7 +60,7 @@ export default function ContactPage() {
               {/* EMAIL */}
               <div className="border-b border-slate-200 pb-20">
 
-                <h2 className="text-3xl lg:text-4xl font-light text-slate-900 mb-8">
+                <h2 className="text-2xl lg:text-[44px] font-light text-slate-900 mb-4">
                   Institutional Email
                 </h2>
 
@@ -76,7 +76,7 @@ export default function ContactPage() {
               {/* AFFILIATION */}
               <div className="border-b border-slate-200 pb-20">
 
-                <h2 className="text-3xl lg:text-4xl font-light text-slate-900 mb-8">
+                <h2 className="text-2xl lg:text-[44px] font-light text-slate-900 mb-4">
                   Affiliation
                 </h2>
 
@@ -91,7 +91,7 @@ export default function ContactPage() {
               {/* PROFILES */}
               <div>
 
-                <h2 className="text-3xl lg:text-4xl font-light text-slate-900 mb-8">
+                <h2 className="text-2xl lg:text-[44px] font-light text-slate-900 mb-4">
                   Research Profiles
                 </h2>
 

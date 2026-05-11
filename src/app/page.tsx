@@ -10,174 +10,266 @@ export default function Home() {
 
       <Navbar />
 
-      {/* HERO SECTION */}
-      <section className="relative bg-[#081220] overflow-hidden">
+{/* HERO SECTION */}
+<section className="relative bg-[#081220] overflow-hidden">
 
-        {/* Atmospheric Background */}
-        <div className="absolute top-0 right-[-10%] w-[900px] h-[900px] bg-cyan-500/10 blur-[180px] rounded-full pointer-events-none" />
+  {/* Atmospheric Background */}
+  <div className="absolute top-0 right-[-10%] w-[800px] h-[800px] bg-cyan-500/10 blur-[180px] rounded-full pointer-events-none" />
 
-        <div className="absolute top-[30%] left-[-15%] w-[700px] h-[700px] bg-blue-500/5 blur-[160px] rounded-full pointer-events-none" />
+  <div className="absolute top-[30%] left-[-15%] w-[600px] h-[600px] bg-blue-500/5 blur-[160px] rounded-full pointer-events-none" />
 
-        <div className="max-w-7xl mx-auto px-6 pt-36 pb-32 relative z-10">
+  <div className="max-w-7xl mx-auto px-6 pt-10 pb-24 relative z-10">
 
-          <div className="grid lg:grid-cols-2 gap-20 items-center">
+    <div className="grid lg:grid-cols-2 gap-16 items-center">
 
-            {/* LEFT SIDE */}
-            <div>
+      {/* LEFT SIDE */}
+      <div>
 
-              <p className="text-sm uppercase tracking-[0.35em] text-slate-500 mb-12">
-                Department of Physics · National Institute of Technology Silchar
-              </p>
+        <p className="text-sm uppercase tracking-[0.22em] text-slate-500 mb-10 whitespace-nowrap">
+          Department of Physics · National Institute of Technology Silchar
+        </p>
 
-              <h1 className="max-w-5xl text-5xl lg:text-7xl font-semibold tracking-tight leading-[1.02] text-white">
-                Quantum Condensed
-                <br />
-                Matter Group
-              </h1>
+        <h1 className="text-5xl lg:text-7xl font-semibold tracking-tight leading-[1.02] text-white max-w-4xl">
+          Quantum Condensed
+          <br />
+          Matter Group
+        </h1>
 
-              <p className="mt-10 max-w-3xl text-xl lg:text-2xl text-slate-300 leading-[1.9] font-light">
-                Research in topology, nonlinear quantum transport,
-                Berry curvature physics, quantum geometry,
-                and emergent condensed matter phenomena.
-              </p>
+        <p className="mt-10 max-w-2xl text-lg lg:text-xl text-slate-300 leading-[1.9] font-light">
+          Research in topology, nonlinear quantum transport,
+          Berry curvature physics, quantum geometry,
+          and emergent condensed matter phenomena.
+        </p>
 
-            </div>
+        {/* Accent Line */}
+        <div className="mt-12 w-24 h-px bg-cyan-400/70"></div>
 
-            {/* RIGHT SIDE */}
-            <div className="relative hidden lg:flex items-center justify-center h-[600px]">
+      </div>
 
-              {/* Outer Glow */}
-              <div className="absolute w-[500px] h-[500px] rounded-full bg-cyan-500/10 blur-[140px] animate-glow"></div>
+      {/* RIGHT SIDE */}
+      <div className="relative hidden lg:flex items-center justify-center h-[520px]">
 
-              {/* Geometry */}
-              <div className="relative w-[440px] h-[440px] opacity-90">
+        {/* Outer Glow */}
+        <div className="absolute w-[420px] h-[420px] rounded-full bg-cyan-500/10 blur-[120px] animate-glow"></div>
 
-                {/* Circle 1 */}
-                <div className="absolute inset-0 rounded-full border border-white/10"></div>
+        {/* Geometry */}
+        <div className="relative w-[360px] h-[360px] opacity-80">
 
-                {/* Circle 2 */}
-                <div className="absolute inset-10 rounded-full border border-cyan-400/20"></div>
+          {/* Circle 1 */}
+          <div className="absolute inset-0 rounded-full border border-white/10"></div>
 
-                {/* Circle 3 */}
-                <div className="absolute inset-20 rounded-full border border-white/10"></div>
+          {/* Circle 2 */}
+          <div className="absolute inset-10 rounded-full border border-cyan-400/20"></div>
 
-                {/* Horizontal Line */}
-                <div className="absolute top-1/2 left-0 w-full h-px bg-white/10"></div>
+          {/* Circle 3 */}
+          <div className="absolute inset-20 rounded-full border border-white/10"></div>
 
-                {/* Vertical Line */}
-                <div className="absolute left-1/2 top-0 h-full w-px bg-white/10"></div>
+          {/* Horizontal Line */}
+          <div className="absolute top-1/2 left-0 w-full h-px bg-white/10"></div>
 
-                {/* Diagonal Line */}
-                <div className="absolute top-0 left-0 w-full h-full">
+          {/* Vertical Line */}
+          <div className="absolute left-1/2 top-0 h-full w-px bg-white/10"></div>
 
-                  <div className="absolute top-1/2 left-0 w-full h-px bg-white/5 rotate-45"></div>
+          {/* Center Glow */}
+          <div className="absolute top-1/2 left-1/2 w-8 h-8 -translate-x-1/2 -translate-y-1/2 rounded-full bg-cyan-300 blur-md"></div>
 
-                  <div className="absolute top-1/2 left-0 w-full h-px bg-white/5 -rotate-45"></div>
+        </div>
 
-                </div>
+      </div>
 
-                {/* Center Glow */}
-                <div className="absolute top-1/2 left-1/2 w-10 h-10 -translate-x-1/2 -translate-y-1/2 rounded-full bg-cyan-300 blur-md"></div>
+    </div>
 
-              </div>
+  </div>
 
-            </div>
+</section>
+
+
+{/* ABOUT SECTION */}
+<section className="bg-white border-t border-slate-200">
+
+  <div className="max-w-7xl mx-auto px-6 pt-10 pb-24">
+
+    <div className="grid lg:grid-cols-12 gap-16 items-start">
+
+      {/* LEFT PANEL */}
+      <div className="lg:col-span-4">
+
+        <p className="text-sm uppercase tracking-[0.28em] text-slate-500 mb-8">
+          About
+        </p>
+
+        {/* PI Card */}
+        <div className="max-w-[280px]">
+
+          {/* Professor Image */}
+          <div className="w-[250px] h-[320px] bg-slate-200 overflow-hidden rounded-sm mb-5">
+
+            <img
+              src="/professor.jpg"
+              alt="Dr. Snehasish Nandy"
+              className="w-full h-full object-cover"
+            />
+
+          </div>
+
+          {/* Name */}
+          <div className="mb-">
+
+            <h3 className="text-[26px] leading-none font-medium text-slate-900 mb-3">
+              Dr. Snehasish Nandy
+            </h3>
+
+            <p className="text-slate-600 leading-[1.45] text-[15px]">
+              Assistant Professor
+              <br />
+              Department of Physics
+              <br />
+              National Institute of Technology Silchar
+            </p>
+
+          </div>
+
+          {/* Contact */}
+          <div className="space-y-2 text-slate-600 text-[15px] mb-3">
+
+            <p>
+              snehasish@phy.nits.ac.in
+            </p>
+
+            <p>
+              +91 XXXXX XXXXX
+            </p>
+
+          </div>
+
+{/* Social Links */}
+<div className="flex items-center gap-4 pt-3">
+
+  {/* Google Scholar */}
+  <a
+    href="https://scholar.google.com/citations?user=gh2E7IIAAAAJ&hl=en"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-10 h-10 rounded-full border border-slate-300 flex items-center justify-center text-slate-600 hover:text-cyan-700 hover:border-cyan-700 transition duration-300"
+  >
+    <GraduationCap size={18} />
+  </a>
+
+  {/* ResearchGate */}
+  <a
+    href="https://www.researchgate.net/profile/Snehasish-Nandy"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-10 h-10 rounded-full border border-slate-300 flex items-center justify-center text-[13px] font-medium text-slate-600 hover:text-cyan-700 hover:border-cyan-700 transition duration-300"
+  >
+    RG
+  </a>
+
+  {/* LinkedIn */}
+  <a
+    href="https://in.linkedin.com/in/snehasish-nandy-1529a215b"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-10 h-10 rounded-full border border-slate-300 flex items-center justify-center text-slate-600 hover:text-cyan-700 hover:border-cyan-700 transition duration-300"
+  >
+    <LinkIcon size={18} />
+  </a>
+
+</div>
+{/* CV Link */}
+<div className="pt-8">
+
+  <a
+    href="/cv.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="group inline-flex items-center gap-3 text-[15px] tracking-wide text-slate-700 hover:text-cyan-700 transition duration-300"
+  >
+    <span>
+      Curriculum Vitae
+    </span>
+
+    <span className="transition-transform duration-300 group-hover:translate-x-1">
+      →
+    </span>
+
+  </a>
+
+</div>
+        </div>
+
+      </div>
+
+      {/* CENTER CONTENT */}
+      <div className="lg:col-span-5 pt-[78px]">
+
+        <p className="text-[17px] lg:text-[21px] leading-[1.5] text-slate-900 font-light max-w-3xl text-justify">
+
+          The group is led by Dr. Snehasish Nandy,
+          Assistant Professor in the Department of Physics
+          at the National Institute of Technology Silchar.
+          Current research focuses on topology,
+          transport phenomena, quantum geometry,
+          and emergent condensed matter systems.
+
+        </p>
+
+      </div>
+
+      {/* RIGHT PANEL */}
+      <div className="lg:col-span-3 border-l border-slate-200 pl-10 pt-[78px] space-y-16">
+
+        {/* Research Interests */}
+        <div>
+
+          <p className="text-sm uppercase tracking-[0.22em] text-slate-500 mb-6">
+            Research Interests
+          </p>
+
+          <div className="space-y-4 text-[17px] text-slate-700 leading-[1.5]">
+
+            <p>Nonlinear Quantum Transport</p>
+            <p>Berry Curvature Physics</p>
+            <p>Topological Quantum Matter</p>
+            <p>Quantum Geometry</p>
+            <p>Non-Hermitian Systems</p>
 
           </div>
 
         </div>
 
-      </section>
+        {/* Academic Journey */}
+        <div>
 
+          <p className="text-sm uppercase tracking-[0.22em] text-slate-500 mb-6">
+            Academic Journey
+          </p>
 
-      {/* ABOUT SECTION */}
-      <section className="bg-white border-t border-slate-200">
+          <div className="space-y-5 text-[17px] text-slate-700 leading-[1.5]">
 
-        <div className="max-w-7xl mx-auto px-6 py-32">
+            <p>
+              PhD — Indian Institute of Technology Kharagpur
+            </p>
 
-          <div className="grid lg:grid-cols-12 gap-16">
+            <p>
+              Research Collaboration — Los Alamos National Laboratory
+            </p>
 
-            <div className="lg:col-span-3">
-
-              <p className="text-sm uppercase tracking-[0.3em] text-slate-500">
-                About
-              </p>
-
-            </div>
-
-            <div className="lg:col-span-9">
-
-              <div className="grid lg:grid-cols-[1.3fr_0.7fr] gap-20">
-
-                <div>
-
-                  <p className="text-3xl lg:text-4xl leading-[1.7] text-slate-900 font-light max-w-4xl">
-                    The group is led by Dr. Snehasish Nandy,
-                    Assistant Professor in the Department of Physics
-                    at the National Institute of Technology Silchar.
-                    Current research focuses on topology,
-                    transport phenomena,
-                    quantum geometry,
-                    and emergent condensed matter systems.
-                  </p>
-
-                </div>
-
-                <div className="space-y-14">
-
-                  <div>
-
-                    <p className="text-sm uppercase tracking-[0.2em] text-slate-500 mb-5">
-                      Research Interests
-                    </p>
-
-                    <div className="space-y-3 text-lg text-slate-700 leading-relaxed">
-
-                      <p>Nonlinear Quantum Transport</p>
-                      <p>Berry Curvature Physics</p>
-                      <p>Topological Quantum Matter</p>
-                      <p>Quantum Geometry</p>
-                      <p>Non-Hermitian Systems</p>
-
-                    </div>
-
-                  </div>
-
-                  <div>
-
-                    <p className="text-sm uppercase tracking-[0.2em] text-slate-500 mb-5">
-                      Academic Journey
-                    </p>
-
-                    <div className="space-y-4 text-lg text-slate-700 leading-relaxed">
-
-                      <p>
-                        PhD — Indian Institute of Technology Kharagpur
-                      </p>
-
-                      <p>
-                        Research Collaboration — Los Alamos National Laboratory
-                      </p>
-
-                      <p>
-                        Faculty — National Institute of Technology Silchar
-                      </p>
-
-                    </div>
-
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
+            <p>
+              Faculty — National Institute of Technology Silchar
+            </p>
 
           </div>
 
         </div>
 
-      </section>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 
 
       {/* RESEARCH HIGHLIGHTS */}
@@ -189,7 +281,7 @@ export default function Home() {
 
             <div className="lg:col-span-1">
 
-              <p className="text-sm uppercase tracking-[0.3em] text-slate-500 mb-8">
+              <p className="text-sm uppercase tracking-[0.3em] text-slate-500 mb-4">
                 Research Highlights
               </p>
 
@@ -308,30 +400,30 @@ export default function Home() {
       </section>
 
 
-      {/* RESEARCH VISION */}
-      <section className="bg-[#081220] border-t border-slate-800">
+   {/* RESEARCH VISION */}
+<section className="bg-white border-t border-slate-200">
 
-        <div className="max-w-5xl mx-auto px-6 py-40">
+  <div className="max-w-7xl mx-auto px-6 py-40">
 
-          <p className="text-sm uppercase tracking-[0.3em] text-slate-500 mb-10">
-            Research Vision
-          </p>
+    <p className="text-sm uppercase tracking-[0.3em] text-slate-500 mb-10">
+      Research Vision
+    </p>
 
-          <p className="text-4xl lg:text-5xl leading-tight font-light text-white">
-            Understanding emergent quantum phenomena through topology,
-            geometry, and transport in condensed matter systems.
-          </p>
+    <h2 className="max-w-6xl text-4xl lg:text-5xl leading-[1.25] font-light text-white">
+      Understanding emergent quantum phenomena through topology,
+      geometry, and transport in condensed matter systems.
+    </h2>
 
-          <p className="mt-12 text-xl text-slate-500 leading-relaxed max-w-3xl">
-            Current research focuses on nonlinear transport phenomena,
-            Berry curvature effects, topological superconductivity,
-            and quantum geometric responses in strongly correlated
-            and non-Hermitian systems.
-          </p>
+    <p className="mt-12 text-xl text-slate-400 leading-[1.9] max-w-4xl">
+      Current research focuses on nonlinear transport phenomena,
+      Berry curvature effects, topological superconductivity,
+      and quantum geometric responses in strongly correlated
+      and non-Hermitian systems.
+    </p>
 
-        </div>
+  </div>
 
-      </section>
+</section>
 
       <Footer />
 

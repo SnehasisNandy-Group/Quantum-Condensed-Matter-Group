@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Footer() {
   return (
 
-    <footer className="bg-[#081220] border-t border-white/10 mt-32">
+    <footer className="bg-[#081220] border-t border-white/10 mt-12">
 
       <div className="max-w-7xl mx-auto px-8 py-24">
 
@@ -48,7 +48,7 @@ export default function Footer() {
           {/* RIGHT SIDE */}
           <div className="lg:text-right">
 
-            <p className="text-sm uppercase tracking-[0.25em] text-slate-500 mb-8">
+            <p className="text-sm uppercase tracking-[0.25em] text-slate-500 mb-4">
               Official Links
             </p>
 
