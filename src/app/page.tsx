@@ -25,7 +25,7 @@ export default function Home() {
             {/* LEFT SIDE */}
             <div>
 
-              <p className="text-sm uppercase tracking-[0.35em] text-slate-400 mb-12">
+              <p className="text-sm uppercase tracking-[0.35em] text-slate-500 mb-12">
                 Department of Physics · National Institute of Technology Silchar
               </p>
 
@@ -189,7 +189,7 @@ export default function Home() {
 
             <div className="lg:col-span-1">
 
-              <p className="text-sm uppercase tracking-[0.3em] text-slate-400 mb-8">
+              <p className="text-sm uppercase tracking-[0.3em] text-slate-500 mb-8">
                 Research Highlights
               </p>
 
@@ -208,7 +208,7 @@ export default function Home() {
                   Topological Quantum Systems
                 </h3>
 
-                <p className="text-slate-400 text-lg leading-relaxed">
+                <p className="text-slate-500 text-lg leading-relaxed">
                   Exploring emergent phases and transport phenomena
                   in topological condensed matter systems.
                 </p>
@@ -221,7 +221,7 @@ export default function Home() {
                   Nonlinear Quantum Transport
                 </h3>
 
-                <p className="text-slate-400 text-lg leading-relaxed">
+                <p className="text-slate-500 text-lg leading-relaxed">
                   Investigating Berry curvature effects,
                   quantum transport responses,
                   and emergent electronic behavior.
@@ -235,7 +235,7 @@ export default function Home() {
                   Quantum Geometry
                 </h3>
 
-                <p className="text-slate-400 text-lg leading-relaxed">
+                <p className="text-slate-500 text-lg leading-relaxed">
                   Theoretical and computational approaches
                   to geometric and correlated quantum phenomena.
                 </p>
@@ -313,7 +313,7 @@ export default function Home() {
 
         <div className="max-w-5xl mx-auto px-6 py-40">
 
-          <p className="text-sm uppercase tracking-[0.3em] text-slate-400 mb-10">
+          <p className="text-sm uppercase tracking-[0.3em] text-slate-500 mb-10">
             Research Vision
           </p>
 
@@ -322,7 +322,7 @@ export default function Home() {
             geometry, and transport in condensed matter systems.
           </p>
 
-          <p className="mt-12 text-xl text-slate-400 leading-relaxed max-w-3xl">
+          <p className="mt-12 text-xl text-slate-500 leading-relaxed max-w-3xl">
             Current research focuses on nonlinear transport phenomena,
             Berry curvature effects, topological superconductivity,
             and quantum geometric responses in strongly correlated

@@ -5,7 +5,7 @@ export default function Footer() {
 
     <footer className="bg-[#081220] border-t border-white/10 mt-32">
 
-      <div className="max-w-7xl mx-auto px-8 py-20">
+      <div className="max-w-7xl mx-auto px-8 py-24">
 
         <div className="grid lg:grid-cols-2 gap-16 items-start">
 
@@ -26,7 +26,7 @@ export default function Footer() {
                 Quantum Condensed Matter Group
               </h3>
 
-              <p className="mt-5 text-slate-400 leading-relaxed text-sm">
+              <p className="mt-5 text-slate-500 leading-relaxed text-sm">
 
                 Department of Physics
                 <br />
@@ -57,7 +57,7 @@ export default function Footer() {
               lg:justify-end
               gap-10
               text-sm
-              text-slate-400
+              text-slate-500
             ">
 
               <a

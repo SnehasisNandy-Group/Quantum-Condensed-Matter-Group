@@ -13,11 +13,11 @@ export default function ContactPage() {
         {/* Background Glow */}
         <div className="absolute top-0 right-[-10%] w-[700px] h-[700px] bg-cyan-500/10 blur-[160px] rounded-full pointer-events-none" />
 
-        <div className="max-w-7xl mx-auto px-6 pt-36 pb-28 relative z-10">
+        <div className="max-w-7xl mx-auto px-6 pt-28 pb-20 relative z-10">
 
           <div className="max-w-5xl">
 
-            <p className="text-sm uppercase tracking-[0.35em] text-slate-400 mb-10">
+            <p className="text-sm uppercase tracking-[0.35em] text-slate-500 mb-10">
               Contact
             </p>
 

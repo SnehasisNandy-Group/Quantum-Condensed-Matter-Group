@@ -473,11 +473,11 @@ return (
 
       {/* Orbital Lines */}
       
-      <div className="max-w-7xl mx-auto px-6 pt-36 pb-28 relative z-10">
+      <div className="max-w-7xl mx-auto px-6 pt-28 pb-20 relative z-10">
 
         <div className="max-w-5xl">
 
-          <p className="text-sm uppercase tracking-[0.35em] text-slate-400 mb-12">
+          <p className="text-sm uppercase tracking-[0.35em] text-slate-500 mb-12">
             Publications
           </p>
 

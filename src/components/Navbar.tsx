@@ -3,7 +3,7 @@ export default function Navbar() {
 
     <nav className="sticky top-0 z-50 bg-[#081220]/92 backdrop-blur-xl border-b border-white/10">
 
-      <div className="max-w-7xl mx-auto px-8 h-20 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-8 h-16 flex items-center justify-between">
 
         {/* Logo / Title */}
         <a

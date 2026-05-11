@@ -13,11 +13,11 @@ export default function GroupPage() {
         {/* Background Glow */}
         <div className="absolute top-0 right-[-10%] w-[700px] h-[700px] bg-cyan-500/10 blur-[160px] rounded-full pointer-events-none" />
 
-        <div className="max-w-7xl mx-auto px-6 pt-36 pb-28 relative z-10">
+        <div className="max-w-7xl mx-auto px-6 pt-28 pb-20 relative z-10">
 
           <div className="max-w-5xl">
 
-            <p className="text-sm uppercase tracking-[0.35em] text-slate-400 mb-10">
+            <p className="text-sm uppercase tracking-[0.35em] text-slate-500 mb-10">
               Group
             </p>
 
@@ -97,7 +97,7 @@ export default function GroupPage() {
 
             <div className="lg:col-span-3">
 
-              <p className="text-sm uppercase tracking-[0.3em] text-slate-400">
+              <p className="text-sm uppercase tracking-[0.3em] text-slate-500">
                 Researchers
               </p>
 
@@ -113,7 +113,7 @@ export default function GroupPage() {
                     Doctoral Students
                   </h3>
 
-                  <p className="text-xl text-slate-400 leading-[1.9]">
+                  <p className="text-xl text-slate-500 leading-[1.9]">
                     Information regarding current doctoral researchers
                     and research scholars will be updated soon.
                   </p>
@@ -126,7 +126,7 @@ export default function GroupPage() {
                     Collaborators
                   </h3>
 
-                  <p className="text-xl text-slate-400 leading-[1.9]">
+                  <p className="text-xl text-slate-500 leading-[1.9]">
                     Active collaborations in condensed matter theory,
                     topological systems,
                     nonlinear transport,
