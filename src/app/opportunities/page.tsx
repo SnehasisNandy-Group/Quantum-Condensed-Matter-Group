@@ -8,24 +8,24 @@ export default function OpportunitiesPage() {
       <Navbar />
 
       {/* HERO */}
-      <section className="relative bg-[#081220] overflow-hidden">
+      <section className="relative bg-[#081220] overflow-hidden border-b border-slate-800">
 
         {/* Background Glow */}
         <div className="absolute top-0 right-[-10%] w-[700px] h-[700px] bg-cyan-500/10 blur-[160px] rounded-full pointer-events-none" />
 
-        <div className="max-w-7xl mx-auto px-6 pt-28 pb-20 relative z-10">
+        <div className="max-w-6xl mx-auto px-6 pt-24 pb-16 relative z-10">
 
-          <div className="max-w-5xl">
+          <div className="max-w-4xl">
 
-            <p className="text-sm uppercase tracking-[0.28em] text-slate-500 mb-10">
+            <p className="text-sm uppercase tracking-[0.28em] text-slate-500 mb-8">
               Opportunities
             </p>
 
-            <h1 className="text-5xl lg:text-7xl font-semibold leading-[1.05] text-white">
+            <h1 className="text-4xl lg:text-6xl font-semibold leading-[1.08] text-white">
               Join the Group
             </h1>
 
-            <p className="mt-12 text-xl lg:text-2xl text-slate-300 leading-[1.9] max-w-4xl font-light">
+            <p className="mt-8 text-lg lg:text-xl text-slate-300 leading-[1.8] max-w-3xl font-light">
               The group welcomes motivated students and collaborators
               interested in theoretical condensed matter physics,
               topology, quantum transport,
@@ -41,30 +41,30 @@ export default function OpportunitiesPage() {
       {/* OPPORTUNITIES */}
       <section className="bg-white border-t border-slate-200">
 
-        <div className="max-w-7xl mx-auto px-6 py-32">
+        <div className="max-w-6xl mx-auto px-6 py-20">
 
-          <div className="grid lg:grid-cols-12 gap-20 items-start">
+          <div className="grid lg:grid-cols-12 gap-12 items-start">
 
             {/* LEFT LABEL */}
-            <div className="lg:col-span-3 pt-3">
+            <div className="lg:col-span-2 pt-1">
 
-              <p className="text-sm uppercase tracking-[0.3em] text-slate-500">
+              <p className="text-[12px] uppercase tracking-[0.28em] text-slate-500 leading-[1.7]">
                 Openings
               </p>
 
             </div>
 
             {/* RIGHT CONTENT */}
-            <div className="lg:col-span-9 space-y-24">
+            <div className="lg:col-span-10 space-y-12">
 
               {/* PhD */}
-              <div className="border-b border-slate-200 pb-20">
+              <div className="border-b border-slate-200 pb-10">
 
-                <h2 className="text-2xl lg:text-[44px] font-light text-slate-900 mb-4">
+                <h2 className="text-[24px] lg:text-[30px] font-light text-slate-900 mb-3">
                   PhD Opportunities
                 </h2>
 
-                <p className="text-xl text-slate-600 leading-[1.9] max-w-4xl">
+                <p className="text-[16px] text-slate-600 leading-[1.8] max-w-3xl">
                   Prospective doctoral students with interests in
                   condensed matter theory,
                   topology,
@@ -76,13 +76,13 @@ export default function OpportunitiesPage() {
               </div>
 
               {/* Collaborations */}
-              <div className="border-b border-slate-200 pb-20">
+              <div className="border-b border-slate-200 pb-10">
 
-                <h2 className="text-2xl lg:text-[44px] font-light text-slate-900 mb-4">
+                <h2 className="text-[24px] lg:text-[30px] font-light text-slate-900 mb-3">
                   Research Collaborations
                 </h2>
 
-                <p className="text-xl text-slate-600 leading-[1.9] max-w-4xl">
+                <p className="text-[16px] text-slate-600 leading-[1.8] max-w-3xl">
                   The group is open to research collaborations in
                   topological quantum matter,
                   Berry curvature physics,
@@ -95,11 +95,11 @@ export default function OpportunitiesPage() {
               {/* Contact */}
               <div>
 
-                <h2 className="text-2xl lg:text-[44px] font-light text-slate-900 mb-4">
+                <h2 className="text-[24px] lg:text-[30px] font-light text-slate-900 mb-3">
                   Contact
                 </h2>
 
-                <p className="text-xl text-slate-600 leading-[1.9] max-w-4xl">
+                <p className="text-[16px] text-slate-600 leading-[1.8] max-w-3xl">
                   Interested students and collaborators may contact the group
                   via institutional email with a brief description
                   of research interests and academic background.
@@ -107,7 +107,7 @@ export default function OpportunitiesPage() {
 
                 <a
                   href="mailto:snehasish@phy.nits.ac.in"
-                  className="inline-block mt-10 text-cyan-600 text-lg hover:text-cyan-700 transition duration-300"
+                  className="inline-block mt-6 text-[16px] text-cyan-600 hover:text-cyan-700 transition duration-300"
                 >
                   snehasish@phy.nits.ac.in
                 </a>
