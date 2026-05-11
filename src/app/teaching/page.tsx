@@ -22,9 +22,8 @@ export default function TeachingPage() {
             </p>
 
             <h1 className="text-4xl lg:text-6xl font-semibold leading-[1.08] text-white">
-              Courses &
-              <br />
-              Academic Teaching
+              Courses & Academic Teaching
+                 
             </h1>
 
             <p className="mt-8 text-lg lg:text-xl text-slate-300 leading-[1.8] max-w-3xl font-light">
