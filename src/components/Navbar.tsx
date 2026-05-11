@@ -9,7 +9,7 @@ export default function Navbar() {
           href="/"
           className="text-sm tracking-[0.25em] uppercase text-white/90"
         >
-          Quantum Materials Group
+          Quantum Condensed Matter Group
         </a>
 
         <div className="flex items-center gap-10 text-sm tracking-wide text-gray-400">
