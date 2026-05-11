@@ -26,7 +26,7 @@ export default function Home() {
     </p>
 
     <h1 className="text-5xl lg:text-7xl leading-[1.05] font-semibold tracking-tight text-white max-w-6xl">
-  Quantum Materials & Transport Theory Group
+  Quantum Condensed Matter Group
 </h1>
 
     <p className="mt-12 text-xl lg:text-2xl text-gray-300 leading-[1.9] max-w-3xl font-light">

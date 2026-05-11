@@ -22,7 +22,7 @@ export default function Footer() {
             <div>
 
               <h3 className="text-lg text-white font-light">
-                Quantum Materials & Transport Theory Group
+                Quantum Condensed Matter Group
               </h3>
 
               <p className="mt-4 text-gray-400 leading-relaxed text-sm">
@@ -71,7 +71,7 @@ export default function Footer() {
             </div>
 
             <p className="mt-10 text-xs text-gray-600">
-              © 2026 Quantum Materials & Transport Theory Group
+              © 2026 Quantum Condensed Matter Group
             </p>
 
           </div>
