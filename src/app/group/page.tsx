@@ -17,9 +17,7 @@ export default function GroupPage() {
           </p>
 
           <h1 className="text-5xl lg:text-7xl font-semibold leading-[1.05] text-white">
-            Quantum Materials &
-            <br />
-            Transport Theory Group
+            Quantum Condensed Matter Group
           </h1>
 
           
