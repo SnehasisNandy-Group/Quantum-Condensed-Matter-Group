@@ -139,7 +139,7 @@ export default function GroupPage() {
 
 </section>
 
-      {/* PHD STUDENTS */}
+ {/* PHD STUDENTS */}
 <section className="bg-white border-t border-slate-200">
 
   <div className="max-w-5xl mx-auto px-6 py-16">
@@ -157,15 +157,16 @@ export default function GroupPage() {
 
       </div>
 
-      {/* STUDENT CONTENT */}
-      <div className="lg:col-span-10">
+      {/* RIGHT CONTENT */}
+      <div className="lg:col-span-10 space-y-10">
 
-        <div className="grid md:grid-cols-[220px_1fr] gap-10 items-start">
+        {/* ================= STUDENT 1 ================= */}
+        <div className="grid md:grid-cols-[220px_1fr] gap-10 items-start border-b border-slate-200 pb-10">
 
           {/* PHOTO */}
           <div>
 
-            <div className="w-[220px] h-[270px] overflow-hidden bg-slate-200">
+            <div className="w-[195px] h-[225px] overflow-hidden bg-slate-200">
 
               <img
                 src="/student1.jpg"
@@ -178,40 +179,106 @@ export default function GroupPage() {
           </div>
 
           {/* TEXT */}
-          <div className="pt-1 max-w-xl">
+          <div className="pt-0.5 max-w-xl">
 
             {/* NAME */}
-            <h2 className="text-[38px] font-light tracking-tight text-slate-900 mb-5 leading-none">
+            <h2 className="text-[30px] font-light tracking-tight text-slate-900 mb-2 leading-none">
               Ritwik Roy
             </h2>
-{/* DESIGNATION */}
-            <div className="space-y-1 text-[15px] text-slate-600 leading-[1.5] mb-6">
 
-              <p>Email: ritwik24_rs@phy.nits.ac.in </p>
+            {/* DETAILS */}
+            <div className="space-y-0 text-[14px] text-slate-600 leading-[1.45] mb-3">
 
-              
+              <p>Department of Physics</p>
+
+              <p>NIT Silchar</p>
+
+              <p>Email: ritwik24_rs@phy.nits.ac.in</p>
 
             </div>
-            
+
             {/* DIVIDER */}
-            <div className="w-8 h-px bg-slate-300 mb-6"></div>
+            <div className="w-8 h-px bg-slate-300 mb-3"></div>
 
             {/* RESEARCH */}
-            <p className="text-[15px] leading-[1.8] text-slate-500 mb-6">
+            <p className="text-[14px] leading-[1.6] text-slate-500 mb-3">
 
               Optical Response in Superconductors
 
             </p>
 
             {/* DIVIDER */}
-            <div className="w-8 h-px bg-slate-300 mb-6"></div>
+            <div className="w-8 h-px bg-slate-300 mb-3"></div>
 
             {/* STATUS */}
-            <div className="space-y-1 text-[14px] text-slate-500">
+            <div className="space-y-0 text-[13px] text-slate-500 leading-[1.5]">
 
               <p>Ongoing</p>
 
               <p>Academic Year : 2024–2025</p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        {/* ================= STUDENT 2 ================= */}
+        <div className="grid md:grid-cols-[220px_1fr] gap-10 items-start">
+
+          {/* PHOTO */}
+          <div>
+
+            <div className="w-[195px] h-[225px] overflow-hidden bg-slate-200">
+
+              <img
+                src="/student2.jpg"
+                alt="Suranjan Atta"
+                className="w-full h-full object-cover"
+              />
+
+            </div>
+
+          </div>
+
+          {/* TEXT */}
+          <div className="pt-0.5 max-w-xl">
+
+            {/* NAME */}
+            <h2 className="text-[30px] font-light tracking-tight text-slate-900 mb-2 leading-none">
+              Suranjan Atta
+            </h2>
+
+            {/* DETAILS */}
+            <div className="space-y-0 text-[14px] text-slate-600 leading-[1.45] mb-3">
+
+              <p>PhD Scholar, IIT Bhubaneswar</p>
+
+              <p>Co-supervised by Prof. Snehasish Nandy</p>
+
+              <p>Email:</p>
+
+            </div>
+
+            {/* DIVIDER */}
+            <div className="w-8 h-px bg-slate-300 mb-3"></div>
+
+            {/* RESEARCH */}
+            <p className="text-[14px] leading-[1.6] text-slate-500 mb-3">
+
+              Research in condensed matter physics and quantum materials.
+
+            </p>
+
+            {/* DIVIDER */}
+            <div className="w-8 h-px bg-slate-300 mb-3"></div>
+
+            {/* STATUS */}
+            <div className="space-y-0 text-[13px] text-slate-500 leading-[1.5]">
+
+              <p>Ongoing</p>
+
+              <p>Collaborative PhD Research</p>
 
             </div>
 
@@ -226,6 +293,97 @@ export default function GroupPage() {
   </div>
 
 </section>
+
+{/* Project staff */}
+<section className="bg-white border-t border-slate-200">
+
+  <div className="max-w-5xl mx-auto px-6 py-16">
+
+    <div className="grid lg:grid-cols-12 gap-10 items-start">
+
+      {/* LEFT LABEL */}
+      <div className="lg:col-span-2">
+
+        <p className="text-[12px] uppercase tracking-[0.28em] text-slate-500 leading-[1.7]">
+          Project
+          <br />
+          Staffs
+        </p>
+
+      </div>
+
+      {/* STUDENT CONTENT */}
+      <div className="lg:col-span-10">
+
+        <div className="grid md:grid-cols-[220px_1fr] gap-10 items-start">
+
+          {/* PHOTO */}
+          <div>
+
+            <div className="w-[195px] h-[225px] overflow-hidden bg-slate-200">
+
+              <img
+                src="/student1.jpg"
+                alt="Ramu Gangu"
+                className="w-full h-full object-cover"
+              />
+
+            </div>
+
+          </div>
+
+          {/* TEXT */}
+          <div className="pt-0.5 max-w-xl">
+
+            {/* NAME */}
+            <h2 className="text-[30px] font-light tracking-tight text-slate-900 mb-2 leading-none">
+               Ramu Gangu
+            </h2>
+{/* DESIGNATION */}
+            <div className="space-y-1 text-[14px] text-slate-600 leading-[1.45] mb-3">
+
+              <p>Department of Physics </p>
+<p>NIT Silchar </p>
+              <p>Email: </p>
+
+              
+
+            </div>
+            
+            {/* DIVIDER */}
+            <div className="w-8 h-px bg-slate-300 mb-3"></div>
+
+            {/* RESEARCH */}
+            <p className="text-[14px] leading-[1.6] text-slate-500 mb-3">
+
+              Research topic goes here
+
+            </p>
+
+            {/* DIVIDER */}
+            <div className="w-8 h-px bg-slate-300 mb-3"></div>
+
+            {/* STATUS */}
+            <div className="space-y-0 text-[14px] text-slate-500 leading-[1.5]">
+
+              <p>Ongoing</p>
+
+              <p>Academic Year : </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
 {/* MSC STUDENTS */}
 <section className="bg-white border-t border-slate-200">
 
@@ -245,19 +403,19 @@ export default function GroupPage() {
       </div>
 
       {/* RIGHT CONTENT */}
-      <div className="lg:col-span-10 space-y-16">
+      <div className="lg:col-span-10 space-y-10">
 
-        {/* STUDENT 1 */}
-        <div className="grid md:grid-cols-[180px_1fr] gap-8 items-start border-b border-slate-200 pb-12">
+        {/* ================= STUDENT 1 ================= */}
+        <div className="grid md:grid-cols-[220px_1fr] gap-10 items-start border-b border-slate-200 pb-10">
 
           {/* PHOTO */}
           <div>
 
-            <div className="w-[180px] h-[220px] overflow-hidden bg-slate-200">
+            <div className="w-[195px] h-[225px] overflow-hidden bg-slate-200">
 
               <img
                 src="/msc1.jpg"
-                alt="Student Name"
+                alt="Udayachandran K"
                 className="w-full h-full object-cover"
               />
 
@@ -266,41 +424,43 @@ export default function GroupPage() {
           </div>
 
           {/* TEXT */}
-          <div className="pt-1 max-w-xl">
+          <div className="pt-0.5 max-w-xl">
 
             {/* NAME */}
-            <h2 className="text-[34px] font-light tracking-tight text-slate-900 mb-4 leading-none">
-              Student Name
+            <h2 className="text-[30px] font-light tracking-tight text-slate-900 mb-2 leading-none">
+              Udayachandran K
             </h2>
 
-           {/* DESIGNATION */}
-            <div className="space-y-1 text-[15px] text-slate-600 leading-[1.5] mb-6">
+            {/* DETAILS */}
+            <div className="space-y-1 text-[14px] text-slate-600 leading-[1.45] mb-3">
 
-              <p>Email: </p>
+              <p>Department of Physics</p>
 
-              
+              <p>NIT Silchar</p>
+
+              <p>Email:</p>
 
             </div>
 
             {/* DIVIDER */}
-            <div className="w-8 h-px bg-slate-300 mb-5"></div>
+            <div className="w-8 h-px bg-slate-300 mb-3"></div>
 
             {/* RESEARCH */}
-            <p className="text-[15px] leading-[1.8] text-slate-500 mb-5">
+            <p className="text-[14px] leading-[1.6] text-slate-500 mb-3">
 
-              Research topic goes here
+              Floquet Theory in Topological Quantum Materials
 
             </p>
 
             {/* DIVIDER */}
-            <div className="w-8 h-px bg-slate-300 mb-5"></div>
+            <div className="w-8 h-px bg-slate-300 mb-3"></div>
 
             {/* STATUS */}
-            <div className="space-y-1 text-[14px] text-slate-500">
+            <div className="space-y-0 text-[14px] text-slate-500 leading-[1.5]">
 
               <p>Ongoing</p>
 
-              <p>Academic Year : 2024–2025</p>
+              <p>Academic Year : 2025–2026</p>
 
             </div>
 
@@ -308,17 +468,17 @@ export default function GroupPage() {
 
         </div>
 
-        {/* STUDENT 2 */}
-        <div className="grid md:grid-cols-[180px_1fr] gap-8 items-start">
+        {/* ================= STUDENT 2 ================= */}
+        <div className="grid md:grid-cols-[220px_1fr] gap-10 items-start">
 
           {/* PHOTO */}
           <div>
 
-            <div className="w-[180px] h-[220px] overflow-hidden bg-slate-200">
+            <div className="w-[195px] h-[225px] overflow-hidden bg-slate-200">
 
               <img
                 src="/msc2.jpg"
-                alt="Student Name"
+                alt="Swastik Ranjan Panda"
                 className="w-full h-full object-cover"
               />
 
@@ -327,37 +487,39 @@ export default function GroupPage() {
           </div>
 
           {/* TEXT */}
-          <div className="pt-1 max-w-xl">
+          <div className="pt-0.5 max-w-xl">
 
             {/* NAME */}
-            <h2 className="text-[34px] font-light tracking-tight text-slate-900 mb-4 leading-none">
-              Student Name
+            <h2 className="text-[30px] font-light tracking-tight text-slate-900 mb-2 leading-none">
+              Swastik Ranjan Panda
             </h2>
 
-            {/* DESIGNATION */}
-            <div className="space-y-1 text-[15px] text-slate-600 leading-[1.5] mb-6">
+            {/* DETAILS */}
+            <div className="space-y-1 text-[14px] text-slate-600 leading-[1.45] mb-3">
 
-              <p>Email: </p>
+              <p>Department of Physics</p>
 
-              
+              <p>NIT Silchar</p>
+
+              <p>Email:</p>
 
             </div>
 
             {/* DIVIDER */}
-            <div className="w-8 h-px bg-slate-300 mb-5"></div>
+            <div className="w-8 h-px bg-slate-300 mb-3"></div>
 
             {/* RESEARCH */}
-            <p className="text-[15px] leading-[1.8] text-slate-500 mb-5">
+            <p className="text-[14px] leading-[1.6] text-slate-500 mb-3">
 
-              Research topic goes here
+              Electric Field Modulated Separation of Biological Soft Entities in a Bifurcated Microchannel
 
             </p>
 
             {/* DIVIDER */}
-            <div className="w-8 h-px bg-slate-300 mb-5"></div>
+            <div className="w-8 h-px bg-slate-300 mb-3"></div>
 
             {/* STATUS */}
-            <div className="space-y-1 text-[14px] text-slate-500">
+            <div className="space-y-0 text-[14px] text-slate-500 leading-[1.5]">
 
               <p>Ongoing</p>
 
@@ -368,6 +530,57 @@ export default function GroupPage() {
           </div>
 
         </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+{/* ALUMNI */}
+<section className="bg-white border-t border-slate-200">
+
+  <div className="max-w-5xl mx-auto px-6 py-16">
+
+    <div className="grid lg:grid-cols-12 gap-10 items-start">
+
+      {/* LEFT LABEL */}
+      <div className="lg:col-span-2">
+
+        <p className="text-[12px] uppercase tracking-[0.28em] text-slate-500 leading-[1.7]">
+          Alumni
+        </p>
+
+      </div>
+
+      {/* RIGHT CONTENT */}
+      <div className="lg:col-span-10">
+
+        {/* ALUMNI LINK */}
+<div className="lg:col-span-10">
+
+  <a
+    href="/alumni"
+    className="
+      inline-flex
+      items-center
+      gap-3
+      text-[18px]
+      text-slate-700
+      hover:text-cyan-700
+      transition
+      duration-300
+    "
+  >
+
+    <span>View Alumni</span>
+
+    <span className="text-xl">→</span>
+
+  </a>
+
+</div>
 
       </div>
 
