@@ -63,7 +63,7 @@ export default function ProjectsPage() {
             <p className="mt-8 text-lg lg:text-xl text-slate-300 leading-[1.8] max-w-3xl font-light">
               Sponsored research projects in condensed matter physics,
               topology, quantum geometry,
-              and emergent transport phenomena.
+              and emergent transport phenomena under Snehasish Nandy
             </p>
 
           </div>
