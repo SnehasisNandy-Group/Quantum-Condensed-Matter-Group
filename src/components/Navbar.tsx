@@ -51,7 +51,12 @@ export default function Navbar() {
           >
             Publications
           </a>
-
+<a
+  href="/projects"
+  className="hover:text-white transition duration-300"
+>
+  Projects
+</a>
           <a
             href="/teaching"
             className="hover:text-white transition duration-300"
