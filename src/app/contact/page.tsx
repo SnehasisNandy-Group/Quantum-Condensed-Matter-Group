@@ -26,10 +26,7 @@ export default function ContactPage() {
             </h1>
 
             <p className="mt-8 text-lg lg:text-xl text-slate-300 leading-[1.8] max-w-3xl font-light">
-              For research collaborations,
-              academic discussions,
-              invited talks,
-              and prospective student inquiries.
+              For research collaborations, academic discussions, invited talks, and prospective student inquiries.
             </p>
 
           </div>

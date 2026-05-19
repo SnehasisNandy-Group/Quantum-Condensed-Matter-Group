@@ -2,42 +2,44 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 
 export default function ResearchPage() {
-  return (
-    <main className="min-h-screen bg-white text-slate-900 overflow-x-hidden">
+ 
 
-      <Navbar />
+return (
+  <main className="min-h-screen bg-white text-slate-900 overflow-x-hidden">
 
-      {/* HERO */}
-      <section className="relative bg-[#081220] overflow-hidden">
+    <Navbar />
 
-        {/* Background Glow */}
-        <div className="absolute top-0 right-[-10%] w-[700px] h-[700px] bg-cyan-500/10 blur-[160px] rounded-full pointer-events-none" />
+    {/* HERO */}
+    <section className="relative bg-[#081220] overflow-hidden border-b border-slate-800">
 
-        <div className="max-w-7xl mx-auto px-6 pt-28 pb-20 relative z-10">
+      {/* Glow */}
+      <div className="absolute top-[-10%] right-[-5%] w-[700px] h-[700px] bg-cyan-500/10 blur-[140px] rounded-full pointer-events-none" />
 
-          <div className="max-w-5xl">
+      <div className="max-w-6xl mx-auto px-6 pt-24 pb-16 relative z-10">
 
-            <p className="text-sm uppercase tracking-[0.28em] text-slate-500 mb-8">
-              Research
-            </p>
+        <div className="max-w-4xl">
 
-            <h1 className="text-5xl lg:text-7xl font-semibold leading-[1.05] text-white">
-              Topology, Quantum Geometry,
-              <br />
-              and Emergent Transport
-            </h1>
+          <p className="text-sm uppercase tracking-[0.28em] text-slate-500 mb-8">
+            Research
+          </p>
 
-            <p className="mt-8 text-lg lg:text-xl text-slate-300 leading-[1.8] max-w-4xl font-light">
-              The group investigates transport phenomena,
-              Berry curvature physics, nonlinear responses,
-              quantum geometry, and topological quantum matter.
-            </p>
+          <h1 className="text-4xl lg:text-6xl font-semibold leading-[1.08] text-white">
+            Topology, Quantum Geometry,
+            <br />
+            and Emergent Transport
+          </h1>
 
-          </div>
+          <p className="mt-8 text-lg lg:text-xl text-slate-300 leading-[1.8] max-w-3xl font-light">
+            The group investigates transport phenomena,
+            Berry curvature physics, nonlinear responses,
+            quantum geometry, and topological quantum matter.
+          </p>
 
         </div>
 
-      </section>
+      </div>
+
+    </section>
 
       {/* RESEARCH AREAS */}
       <section className="bg-white border-t border-slate-200">

@@ -460,40 +460,40 @@ export default function PublicationsPage() {
 
   }, {} as Record<string, typeof publications>);
 
-  return (
-    <main className="min-h-screen bg-white text-slate-900 overflow-x-hidden">
+return (
+  <main className="min-h-screen bg-white text-slate-900 overflow-x-hidden">
 
-      <Navbar />
+    <Navbar />
 
-      {/* HERO */}
-      <section className="relative bg-[#081220] overflow-hidden border-b border-slate-800">
+    {/* HERO */}
+    <section className="relative bg-[#081220] overflow-hidden border-b border-slate-800">
 
-        {/* Glow */}
-        <div className="absolute top-[-10%] right-[-5%] w-[700px] h-[700px] bg-cyan-500/10 blur-[140px] rounded-full pointer-events-none" />
+      {/* Glow */}
+      <div className="absolute top-[-10%] right-[-5%] w-[700px] h-[700px] bg-cyan-500/10 blur-[140px] rounded-full pointer-events-none" />
 
-        <div className="max-w-7xl mx-auto px-6 pt-28 pb-20 relative z-10">
+      <div className="max-w-6xl mx-auto px-6 pt-24 pb-16 relative z-10">
 
-          <div className="max-w-5xl">
+        <div className="max-w-4xl">
 
-            <p className="text-sm uppercase tracking-[0.28em] text-slate-500 mb-12">
-              Publications
-            </p>
+          <p className="text-sm uppercase tracking-[0.28em] text-slate-500 mb-8">
+            Publications
+          </p>
 
-            <h1 className="text-5xl lg:text-7xl font-semibold leading-[1.05] text-white">
-              Publications Archive
-            </h1>
+          <h1 className="text-4xl lg:text-6xl font-semibold leading-[1.08] text-white">
+            Publications Archive
+          </h1>
 
-            <p className="mt-12 text-xl lg:text-2xl text-slate-300 leading-[1.9] max-w-4xl font-light">
-              Research publications in condensed matter physics,
-              topological systems, nonlinear transport,
-              Berry curvature physics, and quantum geometry.
-            </p>
-
-          </div>
+          <p className="mt-8 text-lg lg:text-xl text-slate-300 leading-[1.8] max-w-3xl font-light">
+            Research publications in condensed matter physics,
+            topological systems, nonlinear transport,
+            Berry curvature physics, and quantum geometry.
+          </p>
 
         </div>
 
-      </section>
+      </div>
+
+    </section>
 
       {/* PUBLICATIONS */}
       <section className="bg-white">

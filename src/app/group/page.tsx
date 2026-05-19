@@ -2,34 +2,34 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 
 export default function GroupPage() {
-  return (
-    <main className="min-h-screen bg-white text-slate-900 overflow-x-hidden">
+return (
+  <main className="min-h-screen bg-white text-slate-900 overflow-x-hidden">
 
-      <Navbar />
+    <Navbar />
 
-      {/* HERO */}
-      <section className="relative bg-[#081220] overflow-hidden">
+    {/* HERO */}
+    <section className="relative bg-[#081220] overflow-hidden border-b border-slate-800">
 
-        {/* Background Glow */}
-        <div className="absolute top-0 right-[-10%] w-[700px] h-[700px] bg-cyan-500/10 blur-[160px] rounded-full pointer-events-none" />
+      {/* Glow */}
+      <div className="absolute top-[-10%] right-[-5%] w-[700px] h-[700px] bg-cyan-500/10 blur-[140px] rounded-full pointer-events-none" />
 
-        <div className="max-w-7xl mx-auto px-6 pt-28 pb-20 relative z-10">
+      <div className="max-w-6xl mx-auto px-6 pt-24 pb-16 relative z-10">
 
-          <div className="max-w-5xl">
+        <div className="max-w-4xl">
 
-            <p className="text-sm uppercase tracking-[0.28em] text-slate-500 mb-10">
-              Group
-            </p>
+          <p className="text-sm uppercase tracking-[0.28em] text-slate-500 mb-8">
+            Group
+          </p>
 
-            <h1 className="text-5xl lg:text-7xl font-semibold leading-[1.05] text-white">
-              Quantum Condensed Matter Group
-            </h1>
-
-          </div>
+          <h1 className="text-4xl lg:text-6xl font-semibold leading-[1.08] text-white">
+            Quantum Condensed Matter Group
+          </h1>
 
         </div>
 
-      </section>
+      </div>
+
+    </section>
 
 {/* PRINCIPAL INVESTIGATOR */}
 <section className="bg-white border-t border-slate-200">
