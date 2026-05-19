@@ -180,20 +180,17 @@ export default function Home() {
 <div className="pt-8">
 
   <a
-    href="/cv.pdf"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="group inline-flex items-center gap-3 text-[15px] tracking-wide text-slate-700 hover:text-cyan-700 transition duration-300"
-  >
-    <span>
-      Curriculum Vitae
-    </span>
+  href="/Snehasish_Nandy_CV.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center gap-3 text-[16px] text-slate-700 hover:text-cyan-700 transition duration-300"
+>
 
-    <span className="transition-transform duration-300 group-hover:translate-x-1">
-      →
-    </span>
+  <span>Curriculum Vitae</span>
 
-  </a>
+  <span className="text-lg">→</span>
+
+</a>
 
 </div>
         </div>
