@@ -25,9 +25,29 @@ export default function Home() {
       {/* LEFT SIDE */}
       <div>
 
-        <p className="text-sm uppercase tracking-[0.22em] text-slate-500 mb-10 whitespace-nowrap">
-          Department of Physics · National Institute of Technology Silchar
-        </p>
+        <p className="text-sm uppercase tracking-[0.22em] text-slate-500 mb-12 whitespace-nowrap">
+
+  <a
+    href="https://physics.nits.ac.in/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-cyan-400 transition duration-300"
+  >
+    Department of Physics
+  </a>
+
+  <span className="mx-3">·</span>
+
+  <a
+    href="https://www.nits.ac.in/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-cyan-400 transition duration-300"
+  >
+    National Institute of Technology Silchar
+  </a>
+
+</p>
 
         <h1 className="text-5xl lg:text-7xl font-semibold tracking-tight leading-[1.02] text-white max-w-4xl">
           Quantum Condensed
@@ -137,7 +157,7 @@ export default function Home() {
             </p>
 
             <p>
-              +91 XXXXX XXXXX
+              +91 9609850979
             </p>
 
           </div>
